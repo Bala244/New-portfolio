@@ -168,6 +168,12 @@
 	&__intro{
 		display: flex;
 		flex-direction: column;
+	    @media only screen and (max-width: $bp-smallest) {
+			margin-bottom: 80px;
+		}
+	    @media only screen and (max-width: $bp-very-smallest) {
+			margin-bottom: 80px;
+		}
 	}
 	&__heading{
 		text-align: center;

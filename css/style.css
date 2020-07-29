@@ -359,6 +359,12 @@ canvas {
   .home__intro {
     display: flex;
     flex-direction: column; }
+    @media only screen and (max-width: 31.25em) {
+      .home__intro {
+        margin-bottom: 80px; } }
+    @media only screen and (max-width: 25em) {
+      .home__intro {
+        margin-bottom: 80px; } }
   .home__heading {
     text-align: center;
     margin-right: 15px;
