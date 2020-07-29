@@ -435,6 +435,9 @@ canvas {
   @media only screen and (max-width: 75em) {
     .social-links {
       margin-top: 20px; } }
+  @media only screen and (max-width: 46.875em) {
+    .social-links {
+      margin-top: 10px; } }
   .social-links__icon {
     list-style: none;
     margin: 10px 10px; }
