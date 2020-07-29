@@ -2,8 +2,10 @@
 $bp-largest: 75em;     // 1200px
 $bp-large: 68.75em;    // 1100px
 $bp-medium: 56.25em;   // 900px
+$bp-low-medium: 46.875em; //750px
 $bp-small: 37.5em;     // 600px
 $bp-smallest: 31.25em; // 500px
+$bp-very-smallest: 25em; //400px
 
 /*Font Awesome Free Icon*/
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
@@ -105,6 +107,10 @@ canvas {
     opacity: 1;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
+
+   @media only screen and (max-width: $bp-largest) {
+        left: 0;
+    }
 }
 
 .section.back-section{
