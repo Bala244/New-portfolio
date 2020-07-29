@@ -348,11 +348,12 @@ canvas {
   background-position: center; }
 
 .homee {
+  text-align: center;
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 15%;
+  margin-top: 22%;
   z-index: 10; }
   @media only screen and (max-width: 75em) {
     .homee {
@@ -362,7 +363,7 @@ canvas {
       margin-top: 30%; } }
   @media only screen and (max-width: 56.25em) {
     .homee {
-      margin-top: 50%; } }
+      margin-top: 30%; } }
   @media only screen and (max-width: 46.875em) {
     .homee {
       margin-top: 20%; } }
@@ -405,7 +406,6 @@ canvas {
       .homee__heading {
         font-size: 20px; } }
   .homee__para {
-    text-align: center;
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 300;
@@ -434,9 +434,6 @@ canvas {
   display: flex;
   justify-content: flex-end; }
   @media only screen and (max-width: 75em) {
-    .social-links {
-      margin-top: 20px; } }
-  @media only screen and (max-width: 46.875em) {
     .social-links {
       margin-top: 20px; } }
   .social-links__icon {

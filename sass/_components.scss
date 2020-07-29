@@ -155,6 +155,7 @@
 }
 
 .homee{
+	text-align: center;
 	display:-ms-flexbox;
 	display: flex;
 	flex-direction: column;
@@ -171,7 +172,7 @@
 			margin-top: 30%;
 		}
 	    @media only screen and (max-width: $bp-medium) {
-			margin-top: 10%;	
+			margin-top: 30%;	
 		}
 	    @media only screen and (max-width: $bp-low-medium) {
 			margin-top: 20%;	
