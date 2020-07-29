@@ -308,6 +308,16 @@
 			line-height: 25px;	
 		}
 	}
+	&-ul{
+		margin-top: 0;
+	    
+	    @media only screen and (max-width: $bp-smallest) {
+			margin-top: 300px;
+		}
+	    @media only screen and (max-width: $bp-very-smallest) {
+			margin-top: 300px;
+		}
+	}
 }
 .ityped-cursor {
     /* font-size: 2.2rem; */
