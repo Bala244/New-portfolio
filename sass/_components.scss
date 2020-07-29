@@ -152,44 +152,17 @@
     background-image: linear-gradient(to right bottom,rgba(20, 20, 21, 0.87), rgba(48, 47, 47, 0.71)) ,url(../img/profile.png);
     background-size: cover;
     background-position: center;
-}
+    display: flex;
 
-.homee{
-	text-align: center;
-	display:-ms-flexbox;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-top: 22%;
-
-	z-index: 10;
-    
-	    @media only screen and (max-width: $bp-largest) {
-		    margin-top: 25%;
-	    }
-
-	    @media only screen and (max-width: $bp-large) {
-			margin-top: 30%;
-		}
-	    @media only screen and (max-width: $bp-medium) {
-			margin-top: 30%;	
-		}
-	    @media only screen and (max-width: $bp-low-medium) {
-			margin-top: 20%;	
-		}
-	    @media only screen and (max-width: $bp-small) {
-			margin-top: 50%;	
-		}
-	    @media only screen and (max-width: $bp-smallest) {
-			margin-top: 55%;	
-		}
-	    @media only screen and (max-width: $bp-very-smallest) {
-			margin-top: 60%;	
-		}
-				
 	& .containerr{
 		color: #eee;
 		text-align: center;
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    width: 100%;
+	    text-align: center;
+	    transform: translateX(40px);
 	}
 
 	&__intro{
@@ -215,10 +188,10 @@
 			font-size: 20px;	
 		}
 	    @media only screen and (max-width: $bp-small) {
-			font-size: 20px;	
+			font-size: 18px;	
 		}
 	    @media only screen and (max-width: $bp-smallest) {
-			font-size: 20px;	
+			font-size: 17px;	
 		}
 
 	}
@@ -242,19 +215,55 @@
 			font-size: 15px;	
 		}
 	    @media only screen and (max-width: $bp-small) {
-			font-size: 13px;	
+			font-size: 11px;	
 		}
 	    @media only screen and (max-width: $bp-smallest) {
-			font-size: 13px;	
+			font-size: 11px;	
 		}
 
 	}
- }
+}
+
+// .homee{
+// 	text-align: center;
+// 	display:-ms-flexbox;
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	margin-top: 22%;
+// 	z-index: 10;
+    
+// 	    @media only screen and (max-width: $bp-largest) {
+// 		    margin-top: 25%;
+// 	    }
+
+// 	    @media only screen and (max-width: $bp-large) {
+// 			margin-top: 30%;
+// 		}
+// 	    @media only screen and (max-width: $bp-medium) {
+// 			margin-top: 30%;	
+// 		}
+// 	    @media only screen and (max-width: $bp-low-medium) {
+// 			margin-top: 20%;	
+// 		}
+// 	    @media only screen and (max-width: $bp-small) {
+// 			margin-top: 50%;	
+// 		}
+// 	    @media only screen and (max-width: $bp-smallest) {
+// 			margin-top: 55%;	
+// 		}
+// 	    @media only screen and (max-width: $bp-very-smallest) {
+// 			margin-top: 60%;	
+// 		}
+				
+
+//  }
 
 .social-links {
-	margin-top: 40px;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
+
 
     @media only screen and (max-width: $bp-largest) {
 		margin-top: 20px;
