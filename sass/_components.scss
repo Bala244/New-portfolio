@@ -148,7 +148,6 @@
 .home {
     margin: 0;
     padding: 0;
-    overflow: hidden;
     -webkit-background-size: cover;
     background-image: linear-gradient(to right bottom,rgba(20, 20, 21, 0.87), rgba(48, 47, 47, 0.71)) ,url(../img/profile.png);
     background-size: cover;
@@ -165,26 +164,26 @@
 	z-index: 10;
     
 	    @media only screen and (max-width: $bp-largest) {
-		    margin-top: 18%;
+		    margin-top: 25%;
 	    }
 
 	    @media only screen and (max-width: $bp-large) {
-			margin-top: 18%;
+			margin-top: 30%;
 		}
 	    @media only screen and (max-width: $bp-medium) {
-			margin-top: 20%;	
+			margin-top: 50%;	
 		}
 	    @media only screen and (max-width: $bp-low-medium) {
-			margin-top: 23%;	
+			margin-top: 20%;	
 		}
 	    @media only screen and (max-width: $bp-small) {
-			margin-top: 28%;	
+			margin-top: 50%;	
 		}
 	    @media only screen and (max-width: $bp-smallest) {
-			margin-top: 35%;	
+			margin-top: 55%;	
 		}
 	    @media only screen and (max-width: $bp-very-smallest) {
-			margin-top: 45%;	
+			margin-top: 60%;	
 		}
 				
 	& .containerr{
