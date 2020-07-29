@@ -189,7 +189,7 @@
 		margin-right: 15px;
 		font-size: 40px;
 		letter-spacing: 6px;
-		color: white;
+		color: #eee;
 		font-weight: 500;
 		margin: 0 0 30px;
 		animation-name: moveInLefttext;
@@ -231,10 +231,10 @@
 			font-size: 15px;	
 		}
 	    @media only screen and (max-width: $bp-small) {
-			font-size: 11px;	
+			font-size: 15px;	
 		}
 	    @media only screen and (max-width: $bp-smallest) {
-			font-size: 11px;	
+			font-size: 15px;	
 		}
 
 	}
