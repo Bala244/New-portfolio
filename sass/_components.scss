@@ -7,9 +7,14 @@
 	z-index: 10;
 	border-right: 1px solid #e8dfec;
 	min-height: 100vh;
+	transition: all .3s;
 
     @media only screen and (max-width: $bp-largest) {
-		left: -250px;
+		left: -270px;
+
+		&.open{
+			left: 0;
+		}
     }
 }
 ////////////////////////////// profile img //////////////////////////////////
@@ -63,7 +68,11 @@
     @media only screen and (max-width: $bp-largest) {
 	    display: -ms-flexbox;
         display: flex;
-        left: 15px;
+        left: 30px;
+
+        &.open{
+        	left: 300px;
+        }
     }
 }
 .asidee .nav-toggler span{
@@ -194,7 +203,8 @@
 			font-size: 20px;	
 		}
 	    @media only screen and (max-width: $bp-small) {
-			font-size: 18px;	
+			font-size: 18px;
+			font-weight: 800;	
 		}
 	    @media only screen and (max-width: $bp-smallest) {
 			font-size: 17px;	

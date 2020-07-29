@@ -226,10 +226,13 @@ canvas {
   top: 0;
   z-index: 10;
   border-right: 1px solid #e8dfec;
-  min-height: 100vh; }
+  min-height: 100vh;
+  transition: all .3s; }
   @media only screen and (max-width: 75em) {
     .side-nav {
-      left: -250px; } }
+      left: -270px; }
+      .side-nav.open {
+        left: 0; } }
 
 .profile {
   text-align: center;
@@ -275,7 +278,9 @@ canvas {
     .nav-toggler {
       display: -ms-flexbox;
       display: flex;
-      left: 15px; } }
+      left: 30px; }
+      .nav-toggler.open {
+        left: 300px; } }
 
 .asidee .nav-toggler span {
   height: 2px;
@@ -384,7 +389,8 @@ canvas {
         font-size: 20px; } }
     @media only screen and (max-width: 37.5em) {
       .home__heading {
-        font-size: 18px; } }
+        font-size: 18px;
+        font-weight: 800; } }
     @media only screen and (max-width: 31.25em) {
       .home__heading {
         font-size: 17px; } }
