@@ -409,10 +409,7 @@ canvas {
 .social-links {
   display: flex;
   justify-content: flex-end;
-  align-items: flex-end; }
-  @media only screen and (max-width: 75em) {
-    .social-links {
-      margin-top: 20px; } }
+  align-items: center; }
   .social-links__icon {
     list-style: none;
     margin: 10px 10px; }

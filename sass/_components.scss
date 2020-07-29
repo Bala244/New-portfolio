@@ -262,12 +262,8 @@
 .social-links {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: center;
 
-
-    @media only screen and (max-width: $bp-largest) {
-		margin-top: 20px;
-	}
 	&__icon{
 		list-style: none;
 		margin: 10px 10px;
