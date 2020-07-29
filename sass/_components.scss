@@ -393,6 +393,11 @@
 	display: flex;
 	color: #eee;
 	margin-top: 15px;
+
+	@media only screen and (max-width: $bp-medium) {
+		flex-direction: column;	
+	}
+
 }
 .feature-box{
 	background-color: #070708;

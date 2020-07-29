@@ -157,6 +157,25 @@ canvas {
       -webkit-border-radius: 50%;
       border-radius: 50%;
       border: 3px solid;
+    @media only screen and (max-width: $bp-large) {
+          left: calc(51.5% - 7px);
+    }
+    @media only screen and (max-width: $bp-medium) {
+          left: calc(51.5% - 7px);
+    }
+    @media only screen and (max-width: $bp-low-medium) {
+          left: calc(52% - 7px);
+    }
+    @media only screen and (max-width: $bp-smallest) {
+          left: calc(53% - 7px);
+    }
+   @media only screen and (max-width: $bp-smallest) {
+          left: calc(53% - 7px);
+    }
+   @media only screen and (max-width: $bp-very-smallest) {
+          left: calc(54% - 7px);
+    }
+    
     }
 }
 .section-title h2{

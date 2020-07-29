@@ -132,6 +132,24 @@ canvas {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 3px solid; }
+    @media only screen and (max-width: 68.75em) {
+      .section-title::before {
+        left: calc(51.5% - 7px); } }
+    @media only screen and (max-width: 56.25em) {
+      .section-title::before {
+        left: calc(51.5% - 7px); } }
+    @media only screen and (max-width: 46.875em) {
+      .section-title::before {
+        left: calc(52% - 7px); } }
+    @media only screen and (max-width: 31.25em) {
+      .section-title::before {
+        left: calc(53% - 7px); } }
+    @media only screen and (max-width: 31.25em) {
+      .section-title::before {
+        left: calc(53% - 7px); } }
+    @media only screen and (max-width: 25em) {
+      .section-title::before {
+        left: calc(54% - 7px); } }
 
 .section-title h2 {
   font-size: 40px;
@@ -514,6 +532,9 @@ canvas {
   display: flex;
   color: #eee;
   margin-top: 15px; }
+  @media only screen and (max-width: 56.25em) {
+    .roww {
+      flex-direction: column; } }
 
 .feature-box {
   background-color: #070708;

@@ -65,6 +65,8 @@ function showSection(element)
 
 }
 
+// sidenav toggle
+
 const navTogglerBtn = document.querySelector('.nav-toggler'),
     aside = document.querySelector('.side-nav');
 
