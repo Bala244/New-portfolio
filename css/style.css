@@ -91,7 +91,8 @@ canvas {
   -webkit-transition: all 0.3s ease; }
   @media only screen and (max-width: 75em) {
     .section {
-      left: 0; } }
+      left: 0;
+      padding: 0; } }
 
 .section.back-section {
   z-index: 1; }
@@ -404,14 +405,14 @@ canvas {
         font-size: 30px; } }
     @media only screen and (max-width: 56.25em) {
       .home__heading {
-        font-size: 20px; } }
+        font-size: 30px; } }
     @media only screen and (max-width: 37.5em) {
       .home__heading {
-        font-size: 18px;
+        font-size: 23px;
         font-weight: 800; } }
     @media only screen and (max-width: 31.25em) {
       .home__heading {
-        font-size: 17px; } }
+        font-size: 30px; } }
   .home__para {
     margin-bottom: 15px;
     font-size: 20px;
