@@ -352,7 +352,7 @@ canvas {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 22%;
+  margin-top: 15%;
   z-index: 10; }
   @media only screen and (max-width: 75em) {
     .homee {
@@ -365,7 +365,7 @@ canvas {
       margin-top: 50%; } }
   @media only screen and (max-width: 46.875em) {
     .homee {
-      margin-top: 10%; } }
+      margin-top: 20%; } }
   @media only screen and (max-width: 37.5em) {
     .homee {
       margin-top: 50%; } }
@@ -405,6 +405,7 @@ canvas {
       .homee__heading {
         font-size: 20px; } }
   .homee__para {
+    text-align: center;
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 300;
