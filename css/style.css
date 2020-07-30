@@ -189,11 +189,29 @@ canvas {
     position: absolute;
     width: 10px;
     height: 10px;
-    left: calc(51.3% - 7px);
+    left: calc(51.5% - 7px);
     bottom: 40px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 3px solid; }
+    @media only screen and (max-width: 68.75em) {
+      .section-title1::before {
+        left: calc(51.7% - 7px); } }
+    @media only screen and (max-width: 56.25em) {
+      .section-title1::before {
+        left: calc(52% - 7px); } }
+    @media only screen and (max-width: 46.875em) {
+      .section-title1::before {
+        left: calc(52.5% - 7px); } }
+    @media only screen and (max-width: 31.25em) {
+      .section-title1::before {
+        left: calc(53% - 7px); } }
+    @media only screen and (max-width: 31.25em) {
+      .section-title1::before {
+        left: calc(53.5% - 7px); } }
+    @media only screen and (max-width: 25em) {
+      .section-title1::before {
+        left: calc(54.5% - 7px); } }
 
 .section-title1 h2 {
   font-size: 40px;
@@ -231,9 +249,21 @@ canvas {
   margin-left: -15px;
   position: relative; }
 
+.row1 {
+  display: flex;
+  position: relative;
+  justify-content: center; }
+  @media only screen and (max-width: 37.5em) {
+    .row1 {
+      flex-direction: column; } }
+
 .pad-15 {
   padding-left: 15px;
   padding-right: 15px; }
+
+.paddd-15 {
+  padding-left: 30px;
+  padding-right: 30px; }
 
 .container {
   max-width: 1100px;
@@ -589,7 +619,7 @@ canvas {
     font-size: 18px;
     font-weight: 700;
     text-transform: capitalize;
-    margin: 0 10px;
+    margin: 10px 10px;
     color: #eee;
     cursor: pointer;
     border-bottom: 2px solid transparent;
@@ -606,9 +636,16 @@ canvas {
     grid-template-rows: 1fr 1.1fr;
     gap: 5px 5px;
     justify-content: center; }
+    @media only screen and (max-width: 68.75em) {
+      .projects-content {
+        grid-template-columns: 1fr 1.1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px 20px; } }
+    @media only screen and (max-width: 46.875em) {
+      .projects-content {
+        grid-template-columns: 1fr;
+        gap: 20px 20px; } }
   .projects-item {
-    width: 100%;
-    max-width: 300px;
     min-width: 200px;
     height: 300px;
     background-color: #070708;
@@ -721,47 +758,44 @@ canvas {
   background-color: #070708;
   border-radius: 10px;
   transition: all .3s ease;
-  margin: 10px; }
+  margin: 10px;
+  text-align: center; }
+  @media only screen and (max-width: 37.5em) {
+    .info1 {
+      padding: 30px; } }
 
 .contact {
   background-color: #0e0f10; }
   .contact .container {
     color: #eee;
     padding-bottom: 40px; }
-  .contact-form {
-    padding-left: 100px; }
   .contact-form-item {
     margin-bottom: 30px; }
   .contact-form-control {
     background-color: #eee;
-    width: 100%;
+    width: 75%;
     height: 25px;
     border-radius: 25px;
     border: 1px solid #d4d4e3;
     padding: 10px 25px;
     font-size: 16px;
     color: #504e70;
-    margin-left: 20px;
     transition: all .3s; }
     .contact-form-control:focus {
       transform: scale(1.1); }
-    .contact-form-control-email {
-      height: 25px;
-      border-radius: 25px;
-      border: 1px solid #d4d4e3;
-      padding: 10px 25px;
-      font-size: 16px;
-      background-color: #eee;
-      color: #504e70;
-      margin-left: 20px;
-      width: 90%;
-      transition: all .3s; }
-      .contact-form-control-email:focus {
-        transform: scale(1.1); }
-  .contact-form-group1 {
-    display: flex; }
+  .contact-form-control1 {
+    background-color: #eee;
+    width: 90%;
+    height: 25px;
+    border-radius: 25px;
+    border: 1px solid #d4d4e3;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: #504e70;
+    transition: all .3s; }
+    .contact-form-control1:focus {
+      transform: scale(1.1); }
   .contact-btn {
-    padding-left: 70px;
     text-align: center; }
 
 .social-linkss {
@@ -792,14 +826,24 @@ canvas {
     .social-linkss__a .fa {
       font-size: 18px; }
 
-.contact .contact-form .col-6 {
-  flex: 0 0 80%;
-  -ms-flex: 0 0 80%;
+.contact .contact-form {
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
   max-width: 100%; }
 
+.contact .contact-form .col-6 {
+  flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  max-width: 40%; }
+  @media only screen and (max-width: 37.5em) {
+    .contact .contact-form .col-6 {
+      flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+      max-width: 100%; } }
+
 .contact .contact-form .col-12 {
-  flex: 0 0 72%;
-  -ms-flex: 0 0 72%;
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
   max-width: 100%; }
 
 .contact .contact-form .contact-form-item textarea.contact-form-control {

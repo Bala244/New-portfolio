@@ -217,11 +217,31 @@ canvas {
       position: absolute;
       width: 10px;
       height: 10px;
-      left: calc(51.3% - 7px);
+      left: calc(51.5% - 7px);
       bottom: 40px;
       -webkit-border-radius: 50%;
       border-radius: 50%;
       border: 3px solid;
+   
+    @media only screen and (max-width: $bp-large) {
+          left: calc(51.7% - 7px);
+    }
+    @media only screen and (max-width: $bp-medium) {
+          left: calc(52% - 7px);
+    }
+    @media only screen and (max-width: $bp-low-medium) {
+          left: calc(52.5% - 7px);
+    }
+    @media only screen and (max-width: $bp-smallest) {
+          left: calc(53% - 7px);
+    }
+   @media only screen and (max-width: $bp-smallest) {
+          left: calc(53.5% - 7px);
+    }
+   @media only screen and (max-width: $bp-very-smallest) {
+          left: calc(54.5% - 7px);
+    }
+
     }
 }
 .section-title1 h2{
@@ -260,9 +280,22 @@ canvas {
     margin-left: -15px;
     position: relative;
 }
+.row1{
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+     @media only screen and (max-width: $bp-small) {
+          flex-direction: column;
+    }
+}
 .pad-15{
     padding-left: 15px;
     padding-right: 15px;
+}
+.paddd-15{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .container{
     max-width: 1100px;
