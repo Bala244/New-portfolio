@@ -390,6 +390,8 @@ canvas {
     padding: 2% 30px; }
     .nav__a:hover {
       transform: scale(1); }
+    .nav__a .fa {
+      margin-right: 5px; }
 
 .legal {
   margin-top: 50px;
@@ -405,15 +407,13 @@ canvas {
   background-image: linear-gradient(to right bottom, rgba(20, 20, 21, 0.87), rgba(48, 47, 47, 0.71)), url(../img/profile.png);
   background-size: cover;
   background-position: center;
-  display: flex; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .home .containerr {
     color: #eee;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    text-align: center;
     transform: translateX(40px); }
   .home__intro {
     display: flex;
@@ -498,24 +498,9 @@ canvas {
       transform: rotate(360deg) scale(1.5); }
     @media only screen and (max-width: 68.75em) {
       .social-links__a {
-        height: 35px;
-        width: 35px;
-        line-height: 35px; } }
-    @media only screen and (max-width: 56.25em) {
-      .social-links__a {
-        height: 25px;
-        width: 25px;
-        line-height: 25px; } }
-    @media only screen and (max-width: 37.5em) {
-      .social-links__a {
-        height: 25px;
-        width: 25px;
-        line-height: 25px; } }
-    @media only screen and (max-width: 31.25em) {
-      .social-links__a {
-        height: 25px;
-        width: 25px;
-        line-height: 25px; } }
+        height: 30px;
+        width: 30px;
+        line-height: 30px; } }
   .social-links-ul {
     margin-top: 0; }
     @media only screen and (max-width: 31.25em) {
@@ -573,7 +558,8 @@ canvas {
       flex-direction: column; } }
 
 .feature_box1 {
-  flex: 0 0 35%; }
+  flex: 0 0 35%;
+  justify-content: space-between; }
 
 .feature_box {
   flex: 1; }

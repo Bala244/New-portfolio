@@ -567,6 +567,8 @@ canvas {
           -ms-transform: scale(1);
            -o-transform: scale(1);
               transform: scale(1); }
+    .nav__a .fa {
+      margin-right: 5px; }
 
 .legal {
   margin-top: 50px;
@@ -592,27 +594,21 @@ canvas {
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   .home .containerr {
     color: #eee;
     text-align: center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-       -moz-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-       -moz-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     width: 100%;
-    text-align: center;
     -webkit-transform: translateX(40px);
        -moz-transform: translateX(40px);
         -ms-transform: translateX(40px);
@@ -748,24 +744,9 @@ canvas {
            transform: rotate(360deg) scale(1.5); }
     @media only screen and (max-width: 68.75em) {
       .social-links__a {
-        height: 35px;
-        width: 35px;
-        line-height: 35px; } }
-    @media only screen and (max-width: 56.25em) {
-      .social-links__a {
-        height: 25px;
-        width: 25px;
-        line-height: 25px; } }
-    @media only screen and (max-width: 37.5em) {
-      .social-links__a {
-        height: 25px;
-        width: 25px;
-        line-height: 25px; } }
-    @media only screen and (max-width: 31.25em) {
-      .social-links__a {
-        height: 25px;
-        width: 25px;
-        line-height: 25px; } }
+        height: 30px;
+        width: 30px;
+        line-height: 30px; } }
   .social-links-ul {
     margin-top: 0; }
     @media only screen and (max-width: 31.25em) {
@@ -854,7 +835,12 @@ canvas {
   -webkit-flex: 0 0 35%;
      -moz-box-flex: 0;
       -ms-flex: 0 0 35%;
-          flex: 0 0 35%; }
+          flex: 0 0 35%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+     -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .feature_box {
   -webkit-box-flex: 1;
@@ -1504,3 +1490,4 @@ canvas {
 
 .hidden {
   display: none; }
+
