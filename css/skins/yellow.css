@@ -1,0 +1,61 @@
+.aside .logo a::before{
+    border-top: 4px solid #ffb400;
+    border-left: 4px solid #ffb400;
+}
+
+.aside .logo a::after{
+	border-bottom: 4px solid #ffb400;
+	border-right: 4px solid #ffb400; 
+}
+.aside .nav li a:hover,
+.aside .nav li a.active{
+	color: #F37272;
+}
+.nav__list:hover{
+	background-color: #ffb400;
+}
+
+
+.asidee .nav-toggler span,
+.asidee .nav-toggler span::before,
+.asidee .nav-toggler span::after,
+.social-links a,
+.social-linkss a,
+.nav .nav__a.active,
+.contact .contact-form .btn
+{
+
+	background-color: #ffb400;
+}
+
+.projects-item:hover .projects-icon
+{
+	transition: all .5s;
+   	width: 15%;
+	height: 15%;
+	font-size: 16px;
+	margin-top: 20px;
+	background-color: #ffb400;
+}
+
+.section-title::before,
+.section-title h2::before,
+.section-title h2::after,
+.section-title1::before,
+.section-title1 h2::before,
+.section-title1 h2::after,
+.info span,
+.feature-box__sub-heading,
+.projects .projects-filter button.active,
+.projects-info h4
+{
+	color: #ffb400;
+}
+.feature-box__icon .fa,
+.projects-icon{
+	border: 2px solid #ffb400;
+}
+.feature-box:hover .feature-box__icon .fa{
+	transform: scale(1.1);
+    background-color: #ffb400;
+}

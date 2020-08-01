@@ -1,0 +1,65 @@
+.aside .logo a::before{
+    border-top: 4px solid #fa5b0f;
+    border-left: 4px solid #fa5b0f;
+}
+
+.aside .logo a::before{
+	border-top: 4px solid #fa5b0f;
+	border-left: 4px solid #fa5b0f; 
+}
+.aside .logo a::after{
+	border-bottom: 4px solid #fa5b0f;
+	border-right: 4px solid #fa5b0f; 
+}
+.aside .nav li a:hover,
+.aside .nav li a.active{
+	color: #F37272;
+}
+.nav__list:hover{
+	background-color: #fa5b0f;
+}
+
+
+.asidee .nav-toggler span,
+.asidee .nav-toggler span::before,
+.asidee .nav-toggler span::after,
+.social-links a,
+.social-linkss a,
+.nav .nav__a.active,
+.contact .contact-form .btn
+{
+
+	background-color: #fa5b0f;
+}
+
+.projects-item:hover .projects-icon
+{
+	transition: all .5s;
+   	width: 15%;
+	height: 15%;
+	font-size: 16px;
+	margin-top: 20px;
+	background-color: #fa5b0f;
+}
+
+.section-title::before,
+.section-title h2::before,
+.section-title h2::after,
+.section-title1::before,
+.section-title1 h2::before,
+.section-title1 h2::after,
+.info span,
+.feature-box__sub-heading,
+.projects .projects-filter button.active,
+.projects-info h4
+{
+	color: #fa5b0f;
+}
+.feature-box__icon .fa,
+.projects-icon{
+	border: 2px solid #fa5b0f;
+}
+.feature-box:hover .feature-box__icon .fa{
+	transform: scale(1.1);
+    background-color: #fa5b0f;
+}

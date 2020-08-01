@@ -3,12 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/72dcdf8ffe.js" crossorigin="anonymous"></script>
    <!-- Template css Files -->
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/skins/pink.css" type="text/css">
+
+    <!----------------------- style switcher  -------------------------->
+
+  <link rel="stylesheet" class="alternate-style" title="pink" href="css/skins/pink.css" type="text/css" >
+  <link rel="stylesheet" class="alternate-style" title="blue" href="css/skins/blue.css" type="text/css"disabled>
+  <link rel="stylesheet" class="alternate-style" title="green" href="css/skins/green.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="orange" href="css/skins/orange.css" type="text/css" disabled>
+  <link rel="stylesheet" class="alternate-style" title="yellow" href="css/skins/yellow.css" type="text/css" disabled>
+
   <title>BNK || Portfolio</title>
 </head>
 <body>
@@ -64,13 +74,14 @@
               </div>
               <div class="social-links">
                 <ul class="social-links-ul">
-                    <li class="social-links__icon icon-1"><a href="" class="social-links__a"><i class="fa fa-twitter"></i><span></span></a></li>
-                    <li class="social-links__icon icon-2"><a href="" class="social-links__a"><i class="fa fa-facebook"></i></a></li>
-                    <li class="social-links__icon icon-3"><a href="" class="social-links__a"><i class="fa fa-instagram"></i></a></li>
-                    <li class="social-links__icon icon-4"><a href="" class="social-links__a"><i class="fa fa-github"></i></a></li>
+                    <li class="social-links__icon icon-1"><a href="https://twitter.com/BNK2404" target="blank" class="social-links__a"><i class="fa fa-twitter"></i><span></span></a></li>
+                    <li class="social-links__icon icon-2"><a href="https://www.facebook.com/profile.php?id=100005571857609" target="blank" class="social-links__a"><i class="fab fa-facebook"></i></a></li>
+                    <li class="social-links__icon icon-3"><a href="https://www.instagram.com/_bnk_24/" target="blank" class="social-links__a"><i class="fa fa-instagram"></i></a></li>
+                    <li class="social-links__icon icon-4"><a href="https://github.com/Bala244" target="blank" class="social-links__a"><i class="fa fa-github"></i></a></li>
                 </ul>
               </div>
         </section>
+
              <!--------------------- about ---------------------->
 
           <section class="about section" id="about">
@@ -88,17 +99,17 @@
                 </div>
 
                   <div class="roww">
-                      <div class="feature-box">
+                      <div class="feature_box1 feature-box">
                         <div class="feature-box__icon">
                             <i class="fa fa-pencil"></i>
                         </div>
                         <h1 class="feature-box__heading">Designer</h1>
-                        <p class="feature-box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quod esse minima placeat illo voluptatem</p>
+                        <p class="feature-box__text">I Design a Responsive and User friendly Websites and create a cool logos</p>
                         <p class="feature-box__sub-heading">
                           Thinks I Do in Desiging:
                         </p>
                         <p class="feature-box__text">
-                          UX, UI, Web, Logos
+                          UI, Web, Logos
                         </p>
                         <p class="feature-box__sub-heading">
                           Design Tools:
@@ -113,29 +124,39 @@
                         </div>
                         </div>
                         
-                        <div class="feature-box">
+                        <div class="feature_box feature-box">
                             <div class="feature-box__icon">
                               <i class="fa fa-code"></i>
                             </div>
                             <h1 class="feature-box__heading">Web Developer</h1>
-                            <p class="feature-box__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quod esse minima placeat illo voluptatem</p>
-                           <p class="feature-box__sub-heading">
-                          Languages I Know:
-                        </p>
-                        <p class="feature-box__text">
-                          HTML, CSS, Sass, Node js, React, Mongodb, FireStore
-                        </p>
-                        <p class="feature-box__sub-heading">
-                          Dev Tools:
-                        </p>
-                        <div class="feature-box__text2">
-                          <ul class="feature-box__text1">
-                            <li class="feature-box__text3">Github</li>
-                            <li class="feature-box__text3">Postman</li>
-                            <li class="feature-box__text3">Firebase</li>
-                            <li class="feature-box__text3">Bootstrap</li>
-                          </ul>
-                        </div>
+                            <p class="feature-box__text">I'm a front end developer I Develop a Responsive and User friendly Websites</p>
+                             <p class="feature-box__sub-heading">
+                                My Skills:
+                            </p>
+                            <p class="feature-box__text">
+                              Nodejs, javascript, Html&css
+                            </p>
+                             <p class="feature-box__sub-heading">
+                                Framework:
+                            </p>
+                            <p class="feature-box__text">
+                              Reactjs, Sass
+                            </p>
+                             <p class="feature-box__sub-heading">
+                                Database:
+                            </p>
+                            <p class="feature-box__text">
+                              MongoDB, Firestore(firebase)
+                            </p>
+                            <p class="feature-box__sub-heading">
+                              Others:
+                            </p>
+                            <div class="feature-box__text2">
+                              <ul class="feature-box__text1">
+                                <li class="feature-box__text3">Version Control(Git)</li>
+                                <li class="feature-box__text3">Firebase</li>
+                              </ul>
+                            </div>
                           </div>
                   </div>
             </div>
@@ -163,17 +184,14 @@
                     <div class="projects-item" data-category="node">
                       <div class="projects-icon"><i class="material-icons">ac_unit</i></div>
                       <p class="projects-title">Weather Application</p>
-                      <p class="projects-text">Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
+                      <p class="projects-text">A Web Application Used To Forecast Weather of any location (NodeJs,HTML,CSS).
                     </p>
                       <div class="projects-links">
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-github"></i></a>
+                            <a href="https://github.com/Bala244/node3-Weather-website" target="blank" class="projects-a"><i class="fa fa-github"></i></a>
                           </div>
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-external-link"></i></a>
+                            <a href="https://bnk-weather-application.herokuapp.com/" target="blank" class="projects-a"><i class="fa fa-external-link"></i></a>
                           </div>
                       </div>
                     </div>
@@ -182,17 +200,14 @@
                     <div class="projects-item padd-15" data-category="node">
                       <div class="projects-icon"><i class="material-icons green">chat</i></div>
                       <p class="projects-title">Chat Application</p>
-                      <p class="projects-text">Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
+                      <p class="projects-text">A Webpage of Real Time Chat-Application On The Web Built Using (NodeJs,HTML,CSS).
                     </p>
                       <div class="projects-links">
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-github"></i></a>
+                            <a href="https://github.com/Bala244/bala-chat-application" target="blank" class="projects-a"><i class="fa fa-github"></i></a>
                           </div>
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-external-link"></i></a>
+                            <a href="https://bnk-chat-app.herokuapp.com/" class="projects-a"><i class="fa fa-external-link"></i></a>
                           </div>
                       </div>
                     </div>
@@ -201,17 +216,14 @@
                     <div class="projects-item padd-15" data-category="react">
                       <div class="projects-icon"><i class="material-icons blue">local_convenience_store</i></div>
                       <p class="projects-title">Stock Market</p>
-                      <p class="projects-text">Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
+                      <p class="projects-text">A web page which is used see the  the stock prices of all the stock market company. 
                     </p>
                       <div class="projects-links">
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-github"></i></a>
+                            <a href="https://github.com/Bala244/stock-market" target="blank" class="projects-a"><i class="fa fa-github"></i></a>
                           </div>
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-external-link"></i></a>
+                            <a href="https://stock-markets.netlify.app/" target="blank" class="projects-a"><i class="fa fa-external-link"></i></a>
                           </div>
                       </div>                    
                     </div>
@@ -220,17 +232,13 @@
                     <div class="projects-item padd-15" data-category="html">
                       <div class="projects-icon"><img src="img/favicon1.png" alt="" height="30px" width="30px"></div>
                       <p class="projects-title">Natours</p>
-                      <p class="projects-text">Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                    </p>
+                      <p class="projects-text">A webpage of natours.There are tourist company who are have existing tours for adventurous peoples.</p>
                       <div class="projects-links">
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-github"></i></a>
+                            <a href="https://github.com/Bala244/Natours" target="blank" class="projects-a"><i class="fa fa-github"></i></a>
                           </div>
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-external-link"></i></a>
+                            <a href="https://natours-showcase-project.netlify.app/" target="blank" class="projects-a"><i class="fa fa-external-link"></i></a>
                           </div>
                       </div>                    
                     </div>
@@ -239,17 +247,14 @@
                     <div class="projects-item padd-15" data-category="html">
                       <div class="projects-icon"><img src="img/favicon.png" alt="" height="30px" width="30px"></div>
                       <p class="projects-title">Trillo</p>
-                      <p class="projects-text">Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
+                      <p class="projects-text">A Webpage for booking rooms and travel tickets and it's just a UI page.
                     </p>
                       <div class="projects-links">
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-github"></i></a>
+                            <a href="https://github.com/Bala244/Trillo-showcase-project" target="blank" class="projects-a"><i class="fa fa-github"></i></a>
                           </div>
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-external-link"></i></a>
+                            <a href="https://trillo-showcase-project.netlify.app/" target="blank" class="projects-a"><i class="fa fa-external-link"></i></a>
                           </div>
                       </div>                    
                     </div>
@@ -258,17 +263,14 @@
                     <div class="projects-item padd-15" data-category="html">
                       <div class="projects-icon"><img src="img/favicon2.png" alt="" height="30px" width="30px"> </div>
                       <p class="projects-title">Nexter</p>
-                      <p class="projects-text">Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
-                     Click to see or edit your profile page.
+                      <p class="projects-text">A Webpage for buying luxury homes and it's just a UI page.
                     </p>
                       <div class="projects-links">
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-github"></i></a>
+                            <a href="https://github.com/Bala244/Nexter" target="blank" class="projects-a"><i class="fa fa-github"></i></a>
                           </div>
                           <div class="projects-link">
-                            <a href="" class="projects-a"><i class="fa fa-external-link"></i></a>
+                            <a href="https://nexter-showcase-project.netlify.app/" target="blank" class="projects-a"><i class="fa fa-external-link"></i></a>
                           </div>
                       </div>                    
                     </div>
@@ -329,10 +331,10 @@
                 <div class="info1">
                     <div class="social-linkss">
                       <ul class="social-linkss__ul">
-                          <li class="social-linkss__icon icon-1"><a href="" class="social-linkss__a"><i class="fa fa-twitter"></i><span></span></a></li>
-                          <li class="social-linkss__icon icon-2"><a href="" class="social-linkss__a"><i class="fa fa-facebook"></i></a></li>
-                          <li class="social-linkss__icon icon-3"><a href="" class="social-linkss__a"><i class="fa fa-instagram"></i></a></li>
-                          <li class="social-linkss__icon icon-4"><a href="" class="social-linkss__a"><i class="fa fa-github"></i></a></li>
+                          <li class="social-linkss__icon icon-1"><a href="https://twitter.com/BNK2404" target="blank" class="social-linkss__a"><i class="fa fa-twitter"></i><span></span></a></li>
+                          <li class="social-linkss__icon icon-2"><a href="https://www.facebook.com/profile.php?id=100005571857609" target="blank" class="social-linkss__a"><i class="fab fa-facebook"></i></a></li>
+                          <li class="social-linkss__icon icon-3"><a href="https://www.instagram.com/_bnk_24/" target="blank" class="social-linkss__a"><i class="fa fa-instagram"></i></a></li>
+                          <li class="social-linkss__icon icon-4"><a href="https://github.com/Bala244" target="blank" class="social-linkss__a"><i class="fa fa-github"></i></a></li>
                       </ul>
                     </div>
                 </div>
@@ -340,6 +342,24 @@
             </section>
     </div>
 </div>
+
+
+  <!--------------------------- Style Switcher --------------------------------->
+
+
+  <div class="style-switcher">
+    <div class="toggle-style-switcher">
+      <i class="fa fa-cog fa-spin"></i>
+    </div>
+    <h5>Style Switcher</h5>
+    <ul>
+      <li><a href="javascript:void(0);" title="pink"   style="background-color: #ec1839;" onclick="setActiveStyle('pink')"></a></li>
+      <li><a href="javascript:void(0);" title="blue"   style="background-color: #2196f3;" onclick="setActiveStyle('blue')"></a></li>
+      <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b0f;" onclick="setActiveStyle('orange')"></a></li>
+      <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;" onclick="setActiveStyle('yellow')"></a></li>
+      <li><a href="javascript:void(0);" title="green"  style="background-color: #72b626;" onclick="setActiveStyle('green')"></a></li>
+    </ul>
+  </div>
 
     
   <script type="text/javascript" src="js/particles.js"></script>
