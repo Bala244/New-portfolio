@@ -20,10 +20,12 @@
 	background-color: #2196f3;
 }
 
-
 .asidee .nav-toggler span,
 .asidee .nav-toggler span::before,
-.asidee .nav-toggler span::after,
+.asidee .nav-toggler span::after{
+	background-color: #eee;
+}
+
 .social-links a,
 .social-linkss a,
 .nav .nav__a.active,
