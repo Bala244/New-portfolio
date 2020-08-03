@@ -459,7 +459,7 @@ canvas {
 .nav-toggler {
   height: 40px;
   width: 45px;
-  border: 1px solid #d4d4e3;
+  border: 1px solid #24272a;
   cursor: pointer;
   position: fixed;
   left: 300px;
@@ -468,7 +468,7 @@ canvas {
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;
-  background-color: #070708;
+  background-color: #24272a;
   /* display: -ms-flexbox;
     display: flex; */
   -ms-flex-align: center;
